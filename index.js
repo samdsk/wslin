@@ -1,30 +1,23 @@
-const puppeteer = require('puppeteer');
-const LINK = ""
-//"https://www.linkedin.com/jobs/search/?currentJobId=3839015857&geoId=103330119&keywords=software+engineer&location=Italy"
+const fs = require('fs');
+const Collector = require('./lib/colletor');
+const { AppLog } = require('./lib/utils');
 
-const puppet = async () => {
-    const browser = await puppeteer.launch({
-        headless:false,
-        defaultViewport:false,
-        userDataDir:"./tmp"
-    });
+const main = async () => {
+    AppLog('Starting...')
 
-    const page = await browser.newPage();
+    const results = await Collector()
 
-    await page.goto(LINK)
+    const json = JSON.stringify(results)
 
-    const jobs = await page.$$('ul.jobs-search__results-list')
+    try {
+        AppLog("Writing results to file 'results.json'")
 
-    console.log("len: "+jobs.length)
-
-    for(const job  of jobs){
-        const title = await page.evaluate( e => e.querySelector(".job-card-container__link").textContent, job)
-        console.log(title);
+        fs.writeFileSync('results.json',json)
+        fs.close()
+        
+    } catch (err) {
+        console.error(err);
     }
-
-
 }
 
-puppet();
-
-// https://www.linkedin.com/jobs/search/?currentJobId=3839015856&geoId=103350119&keywords=software+engineer&location=Italy&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true
+main()

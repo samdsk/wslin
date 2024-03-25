@@ -5,7 +5,7 @@ const { AppLog } = require('./lib/utils');
 const main = async () => {
     AppLog('Starting...')
 
-    const results = await Collector()
+    const results = await Collector("data scientist", "taiwan")
 
     const json = JSON.stringify(results)
 
@@ -13,7 +13,6 @@ const main = async () => {
         AppLog("Writing results to file 'results.json'")
 
         fs.writeFileSync('results.json',json)
-        fs.close()
         
     } catch (err) {
         console.error(err);

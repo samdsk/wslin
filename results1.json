@@ -1,0 +1,29 @@
+[
+    {},
+    {
+        "link": "https://tw.linkedin.com/jobs/view/machine-learning-engineer-intern-at-roku-3846223748?refId=aI6v45L7en5mZc710JQOqw%3D%3D&trackingId=gk4h1GrVc50JZ6UFgXrXwQ%3D%3D&position=2&pageNum=0&trk=public_jobs_jserp-result_search-card",
+        "title": "Machine Learning Engineer Intern",
+        "company": "\n                Roku\n              ",
+        "details": ""
+    },
+    {
+        "link": "https://tw.linkedin.com/jobs/view/data-scientist-engineer-at-%E5%8F%B0%E7%A9%8D%E9%9B%BB-3109734506?refId=aI6v45L7en5mZc710JQOqw%3D%3D&trackingId=zANXMiDStFXmcWND4OB64A%3D%3D&position=3&pageNum=0&trk=public_jobs_jserp-result_search-card",
+        "title": "Data Scientist Engineer",
+        "company": "\n                TSMC\n              ",
+        "details": "\nDescription\n\nJob Responsibility:\nIdeal candidates would have either a Master’s degree or a Ph.D. in computer science, information systems, information science or related fields. The responsibilities of this role include developing machine learning, deep learning, text mining, and/or network science-based approaches to extract insights from structured (transactional) and unstructured data sources.\n\n\nQualifications\n\nJob Requirement:\nMinimum Technical Qualifications:\n•Excellent knowledge of Python (with Jupyter, PyCharm, or similar environment), GitHub, and Markdown\n•Extensive experience with data wrangling, data pre-processing (e.g., de-duplication, imputation), and data extraction from structured and unstructured (e.g., social media) data sources with tools such as Pandas or SideTable\n•Experience in developing classical machine learning (supervised or unsupervised) algorithm pipelines, including data annotation, feature extraction/weighting, model selection and tuning, and model evaluation using tools such as scikit-learn\n•Strong knowledge of fundamental statistical principles, including basic knowledge of probability, probability distributions, relationships between variables, hypothesis testing, and statistical significance\n•Experience with executing network science, including network construction, centrality measures, and community detection using packages such as networkX or iGraph\n•Experience with text analytics (e.g., named entity recognition, parts of speech tagging, parsing, coreference resolution, topic modelling, sentiment analysis) and text graphs using packages (e.g., NLTK, Spacy, or Gensim)\n•Fundamental and hands-on implementation knowledge of deep learning, including constructing data encodings (graph, tree, grid, sequence), basic processing units (e.g., ANN, RNN, CNN, GNN), model extensions (e.g., attention mechanisms, highway), learning paradigms (supervised, unsupervised, adversarial), and learning strategy and implementation (optimization, regularization, gradient descent, dropout) using packages such as Keras, PyTorch, or TensorFlow\n•Front-end/UI development and deployment using serverless technologies such as Streamlit and Netlify is a plus."
+    },
+    {},
+    {
+        "link": "https://tw.linkedin.com/jobs/view/ai-ml-engineer-at-%E5%8F%B0%E7%A9%8D%E9%9B%BB-2504185808?refId=aI6v45L7en5mZc710JQOqw%3D%3D&trackingId=7xGnpeLtm95%2BQZ68PkTUAA%3D%3D&position=5&pageNum=0&trk=public_jobs_jserp-result_search-card",
+        "title": "AI/ML Engineer",
+        "company": "\n                TSMC\n              ",
+        "details": "\nDescription\n\nRole\nTSMC AI team is developing the next-generation technologies that change how high-tech manufacturing works. We're looking for engineers and data scientists who are passionate about bringing new ideas from diverse areas and love working with complex data, finding insights, and presenting findings to peers, management, and internal customers.\nAs a key member of a small and versatile team, you will design and implement machine learning algorithms that support TSMC R&D/Fab/Business/IT/Security functions to improve productivity and quality of work.\n\nResponsibility\n1.AI solution development and strategy implementation for manufacturing processes improvement.\n2.Perform data scientist role from data collection, data exploration, feature engineering, model evaluation, to error analysis.\n3.Exercise sound judgement to determine if business problems can be solved through AI/ML and communicate results with domain users for model explanation or error analysis.\n4.Perform model lifecycle management to ensure model validity in production.\n\nQualifications\n\n1.BS or above in Computer Science, Math or Engineering related fields\n2.Experience with programming in Python, SAS, or Matlab.\n3.Experience in machine learning or deep learning.\n4.Good communication and collaboration skills."
+    },
+    {},
+    {
+        "link": "https://tw.linkedin.com/jobs/view/ai-scientist-at-gogox-3853710915?refId=aI6v45L7en5mZc710JQOqw%3D%3D&trackingId=9qq614dbB%2BYJtPYQX0BGSg%3D%3D&position=7&pageNum=0&trk=public_jobs_jserp-result_search-card",
+        "title": "AI Scientist",
+        "company": "\n                GoGoX\n              ",
+        "details": "\nResearch Topics\nResponsibilities\nQualifications (have at least 3 of the following)"
+    }
+]

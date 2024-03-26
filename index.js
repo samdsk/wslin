@@ -5,11 +5,11 @@ const { AppLog } = require('./lib/utils');
 const main = async () => {
     AppLog('Starting...')
 
-    const results = await Collector("data scientist", "taiwan")
-
-    const json = JSON.stringify(results)
-
     try {
+        const results = await Collector("data scientist", "italy")
+
+        const json = JSON.stringify(results)
+    
         AppLog("Writing results to file 'results.json'")
 
         fs.writeFileSync('results.json',json)
